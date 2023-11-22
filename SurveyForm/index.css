@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+  /* text-align: center; */
+}
+#survey-form {
+  width: 50%;
+  margin: 50px auto;
+  padding: 50px 50px;
+  background: black;
+  color: #fff;
+  font-size: larger;
+  font-weight: 200;
+}
+#name,
+#email,
+#number,
+#submit,
+textarea,
+select {
+  width: 90%;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  margin: 10px 0px;
+  background: #fff;
+}
+input {
+  margin: 9px;
+}
+::placeholder {
+  padding: 10px;
+}
+label {
+  margin-top: 20px;
+}
+textarea {
+  height: 100px;
+}
+#submit {
+  background: green;
+  color: #fff;
+}
+.margin {
+  margin: 30px 0;
+}
+.title {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-size: x-large;
+  /* line-height: 2px; */
+}
+/* #title {
+  font-size:;
+} */
+#description {
+  font-style: italic;
+    font-size: xx-large;
+}
